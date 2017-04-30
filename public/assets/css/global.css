@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    background: #fff;
+}
+.max-width {
+    max-width: 1020px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
+a {
+    color: inherit;
+}
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

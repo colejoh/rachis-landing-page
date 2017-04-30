@@ -1,0 +1,23 @@
+{
+  "name": "rachis-landing-page",
+  "version": "1.0.0",
+  "description": "Node app to host lp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colejoh/rachis-landing-page.git"
+  },
+  "author": "Cole Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colejoh/rachis-landing-page/issues"
+  },
+  "homepage": "https://github.com/colejoh/rachis-landing-page#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "serve-static": "^1.12.2"
+  }
+}

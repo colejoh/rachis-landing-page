@@ -1,0 +1,24 @@
+header {
+    padding: 25px 0;
+    font-size: 14px;
+}
+header:before, header::after {
+    content: " ";
+    display: table;
+}
+header:after {
+    clear: both;
+}
+header .left {
+    float: left;
+}
+header .right {
+    float: right;
+}
+.nav-item {
+    display: inline-block;
+    padding-left: 20px;
+}
+.nav-item:hover {
+    text-decoration: underline;
+}
