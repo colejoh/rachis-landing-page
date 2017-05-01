@@ -2,7 +2,7 @@ header {
     padding: 25px 0;
     font-size: 14px;
 }
-header:before, header::after {
+header:before, header:after {
     content: " ";
     display: table;
 }
@@ -21,4 +21,13 @@ header .right {
 }
 .nav-item:hover {
     text-decoration: underline;
+}
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: -2px;
+}
+.logo:hover {
+    text-decoration: none;
+    color: #343A3F;
 }

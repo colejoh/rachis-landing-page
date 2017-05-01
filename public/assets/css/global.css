@@ -27,3 +27,12 @@ a:hover {
     text-align: center;
     margin-bottom: 50px;
 }
+.btn-primary {
+    padding: 10px 25px;
+    border: 1px solid #00C9B3;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #00C9B3;
+}
