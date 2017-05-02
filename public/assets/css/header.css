@@ -31,3 +31,20 @@ header .right {
     text-decoration: none;
     color: #343A3F;
 }
+@media only screen and (max-width: 452px) {
+    header .left {
+        width: 100%;
+        text-align: center;
+    }
+    header .right {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .nav-item {
+        padding: 0 7px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+}
