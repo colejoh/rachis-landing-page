@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="assets/css/header.css" />
         <link rel="stylesheet" href="assets/css/home.css" />
         <link rel="stylesheet" href="assets/css/footer.css" />
+        <link rel="stylesheet" href="assets/prism/prism.css" />
         <title>Rachis</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -75,11 +76,17 @@
                         <p>
                             Seriously, our API is language agnostic. If you can talk to the internet, you can talk to the Rachis API.
                         </p>
-                        <a href="endpoints"><button class="learn-more">See our endpoints</button></a>
+                        <a href="endpoints"><button class="learn-more" style="margin-bottom: 20px">See our endpoints</button></a>
                     </div>
                     <div class="col-sm-6">
-                        <div class="code" style="margin-top: 70px">
-                            GET http://api.rachis.co/?service=facebook&key=123456abcde
+                        <div class="browser-mockup">
+                            <pre class="line-numbers">
+<code class="language-javascript">var request = require('request');
+    
+request('http://api.rachis.io/?point=590fe912060721e206f3d74d', function(error, response, body) {
+    console.log(body);
+});
+</code></pre>
                         </div>
                     </div>
                 </div>
@@ -114,3 +121,5 @@
         </footer>
     </body>
 </html>
+
+<script src="assets/prism/prism.js" type="text/javascript"></script>
