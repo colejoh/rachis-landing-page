@@ -58,6 +58,9 @@
         padding: 0;
     }
     #email-input {
-        padding-right: 0px; 
+        padding-right: 0px;
+    }
+    .step {
+        margin-bottom: 50px;
     }
 }

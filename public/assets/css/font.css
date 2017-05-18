@@ -11,9 +11,12 @@ body {
 .text-center {
     text-align: center;
 }
+.text-right {
+    text-align: right;
+}
 h3 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6em;
 }
 h5 {
@@ -21,7 +24,7 @@ h5 {
     color: #A9B0B8;
 }
 p {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.6em;
 }
 .bold {

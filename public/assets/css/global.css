@@ -11,7 +11,11 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
+.v-center {
+  /*position: absolute;*/
+  top: 50%;
+  /*transform: translateY(-50%);*/
+}
 /* Links */
 a {
     color: inherit;
